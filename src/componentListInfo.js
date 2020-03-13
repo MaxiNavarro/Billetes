@@ -11,16 +11,10 @@ export default class ComponentListInfo extends React.Component {
         return (
             <div>
                 <table className='table-data'>
-                    <tr>
-                        <td className='table-cant'>
-                            <ComponentQuantity quantity={this.props.dato.cantidad}/>
-                        </td>
-                        <td className='table-img'>
-                            <ComponentImg img={this.props.dato.imagen}/>
-                        </td>
-                        <td className='table-pesos'>
-                            <ComponentPesos pesos={this.props.dato.pesos}/>
-                        </td>
+                    <tr> 
+                        <ComponentQuantity quantity={this.props.dato.cantidad}/>
+                        <ComponentImg img={this.props.dato.imagen}/>
+                        <ComponentPesos pesos={this.props.dato.pesos}/>
                     </tr>
                 </table>
             </div>
