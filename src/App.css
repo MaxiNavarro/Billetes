@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+  background-color: #34bd2e;
+  height: auto;
+  width: 790px;
+  margin-top: 100px;
+  margin-left: 300px;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+.App:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Encabezado*/
+
+.head {
+  background-color: #32302f;
+  height: 100px;
+  color: #34bd2e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/*Botones*/
+
+.containerButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-l, .btn-r {
+  width: 49%;
+  height: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border: none;
+  box-shadow: inset 0 0px 14px 2px rgba(0,0,0,0.24);
+  border-radius: 25px;
+  background-color: #34bd2e;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.btn-l:hover, .btn-r:hover {
+  background-color: #30b32b;
+  box-shadow: inset 0px 0px 10px 4px #228a1e;
+}
+
+/*tablas*/
+
+.info {
+  margin: 20px 20px 20px 20px;
+}
+
+.container-totals {
+  width: 250px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.info-one, .info-two {
+  width: 254px;
+}
+
+.totals {
+  background-color: white;
+  margin-top: 4px;
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  box-shadow: inset 0 0px 8px 1px rgba(0,0,0,0.24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totals a {
+  color: #34bd2e;
+}
+
+.table-titles {
+  width: 245px;
+  font-size: 13px;
+}
+
+.title-quant {
+  width: 60px;
+}
+
+.title-value {
+  width: 50px;
+}
+
+.title-pesos {
+  width: 75px;
+}
+
+.table-info {
+  width: 200px;
+}
+
+.table-data {
+  width: 245px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.table-cant {
+ width: 63px;
+ font-size: 25px;
+ font-weight: 600;
+ color: white;
+}
+
+.table-img {
+  width: 40px;
+}
+
+.table-pesos {
+  width: 70px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}

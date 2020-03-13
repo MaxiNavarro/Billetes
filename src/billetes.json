@@ -1,0 +1,52 @@
+{
+    "billetes": [
+        {
+            "cantidad": 0,
+            "imagen": "billete2.png",
+            "valor": 2,
+            "pesos": 0
+        },
+        {
+            "cantidad": 5,
+            "imagen": "billete5.png",
+            "valor": 5,
+            "pesos": 25
+        },
+        {
+            "cantidad": 10,
+            "imagen": "billete10.png",
+            "valor": 10,
+            "pesos": 100
+        },
+        {
+            "cantidad": 20,
+            "imagen": "billete20.png",
+            "valor": 20,
+            "pesos": 400
+        },
+        {
+            "cantidad": 100,
+            "imagen": "billete50.png",
+            "valor": 50,
+            "pesos": 5000
+        },
+        {
+            "cantidad": 200,
+            "imagen": "billete100.png",
+            "valor": 100,
+            "pesos": 20000
+        },
+        {
+            "cantidad": 50,
+            "imagen": "billete200.png",
+            "valor": 200,
+            "pesos": 10000
+        },
+        {
+            "cantidad": 100,
+            "imagen": "billete500.png",
+            "valor": 500,
+            "pesos": 50000
+        }
+    ]
+}
