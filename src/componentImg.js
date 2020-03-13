@@ -6,8 +6,15 @@ export default class ComponentImg extends React.Component {
 
         var element = <img src={this.props.img}></img>;
 
-        return element;
+        return (
+            
+            <td className='table-img'>
+                <img src={this.props.img}></img>
+            </td>
+                    
+        );;
 
     }
     
 }
+
