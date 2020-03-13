@@ -4,7 +4,7 @@ export default class ComponentQuantity extends React.Component {
 
     render() {
 
-        var element = <a>{this.props.quantity}</a>;
+        var element = <td className='table-cant'>{this.props.quantity}</td>;
 
         return element;
 
