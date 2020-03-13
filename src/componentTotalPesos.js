@@ -18,10 +18,10 @@ export default class ComponentTotalCant extends React.Component {
         return (
             <div>
                 <div>
-                    <a>MONTO TOTAL</a>
+                    <p className='title-total'>MONTO TOTAL</p>
                 </div>
                 <div className='totals'>
-                    <a>{total}</a>
+                    <p>{total}</p>
                 </div>
             </div>
         );
