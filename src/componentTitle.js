@@ -4,7 +4,7 @@ export default class ComponentTitle extends React.Component {
 
     render() {
 
-        const element = <a className='title'>{this.props.title}</a>;
+        const element = <p className='title'>{this.props.title}</p>;
 
         return element;
 
